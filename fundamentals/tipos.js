@@ -1,0 +1,6 @@
+console.log(typeof 2)
+console.log(typeof '123')
+console.log(typeof {})
+console.log(typeof [])
+console.log(typeof true)
+console.log(Array.isArray([]) ? 'Es un array' : 'No es un array')
