@@ -8,7 +8,7 @@
 // Ademas, agreguen una consigna que inventen ustedes y hagan que la función la cumpla
 // No se olviden de agregar una prueba unitaria que compruebe la consigna que inventaron
 // Las pruebas estan en: ./__tests__/objetos.test.js
-module.exports = function unObjeto() {
+function unObjeto() {
   return {
     a: 1,
     b: '2',
@@ -19,3 +19,5 @@ module.exports = function unObjeto() {
     porDefinir: null
   }
 }
+
+module.exports = unObjeto

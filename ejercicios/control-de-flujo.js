@@ -48,7 +48,7 @@ const edificios = [
 // Ejemplo de resultado:
 //    Algun edificio, Calle Falsa 123
 //    Otro edificio, Calle Falsa 321
-module.exports = function leerEdificios() {
+function leerEdificios() {
   return edificios
     .sort((a, b) => {
       const textA = a.nombre.toUpperCase();
@@ -60,3 +60,5 @@ module.exports = function leerEdificios() {
     .map(e => `${e.nombre}, ${e.direccion}`)
     .reduce((acc, e) => `${acc}${e}\n`, '')
 }
+
+module.exports = leerEdificios
