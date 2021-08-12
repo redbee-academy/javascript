@@ -48,6 +48,8 @@ const edificios = [
 // Ejemplo de resultado:
 //    Algun edificio, Calle Falsa 123
 //    Otro edificio, Calle Falsa 321
-module.exports = function leerEdificios() {
+function leerEdificios() {
   
 }
+
+module.exports = leerEdificios
