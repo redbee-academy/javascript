@@ -1,8 +1,8 @@
-function suma(a, b) {
+function suma(a: number, b: number): number {
   return a + b
 }
 
-const resta = (a, b) => a - b
+const resta: (a: number, b:number) => number = (a, b) => a - b
 const multiplicacion = (a, b) => {
   return a * b
 }

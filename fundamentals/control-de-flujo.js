@@ -9,6 +9,17 @@ if (a > b) {
 } else {
   console.log(`a (${a}) y b (${b}) son iguales`)
 }
+
+// AND
+if (true && true) {
+  console.log('siempre')
+}
+
+// OR
+if (false || false) {
+  console.log('nunca')
+}
+
 if (a === 1) {
   console.log('a es Uno!')
 }
@@ -18,6 +29,8 @@ if (b % 2 === 0) {
 if (b !== 1) {
   console.log('b no es Uno!')
 }
+
+!true // false
 
 // For
 const misNumeros = [1,2,7,15,23]

@@ -9,7 +9,19 @@
 // No se olviden de agregar una prueba unitaria que compruebe la consigna que inventaron
 // Las pruebas estan en: ./__tests__/objetos.test.js
 function unObjeto() {
-  
+  return {
+    id: 1,
+    nombre: 'Marcelo',
+    apellido: 'Rodriguez',
+    domicilio: 'Calle falsa 123',
+    hobbies: ['Natacion', 'Boxeo', 'Paracaidisimo'],
+    numerosDeLaSuerte: [1,2,3],
+    borrado: false,
+    porDefinir: null,
+    hola: function () {
+      console.log('Hola ' + this.nombre)
+    }
+  }
 }
 
 module.exports = unObjeto

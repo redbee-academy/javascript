@@ -15,7 +15,7 @@ describe('el objeto cumple con las consignas', () => {
     ).toBe(true)
   })
 
-  it ('tiene por lo menos 1 array de números', () => {
+  it('tiene por lo menos 1 array de números', () => {
     expect(
       Object
         .values(unObjeto())
@@ -36,5 +36,9 @@ describe('el objeto cumple con las consignas', () => {
 
   it('el valor de acceder a la propiedad noExiste es undefined', () => {
     expect(unObjeto().noExiste).toBe(undefined)
+  })
+
+  it('hola', () => {
+    unObjeto().hola()
   })
 })
